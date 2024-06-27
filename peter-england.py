@@ -1,7 +1,43 @@
 import pandas as pd
 import requests
 
-
+STATES = [
+    'Andaman & Nicobar Islands',
+    'Andhra Pradesh',
+    'Arunachal Pradesh',
+    'Assam',
+    'Bihar',
+    'Chandigarh',
+    'Chattisgarh',
+    'Dadra and Nagar Haveli and Daman and Diu',
+    'Delhi',
+    'Goa',
+    'Gujarat',
+    'Haryana',
+    'Himachal Pradesh',
+    'Jammu & Kashmir',
+    'Jharkhand',
+    'Karnataka',
+    'Kerala',
+    'Lakshadweep',
+    'Madhya Pradesh',
+    'Maharashtra',
+    'Manipur',
+    'Meghalaya',
+    'Mizoram',
+    'Nagaland',
+    'Odisha',
+    'Pondicherry',
+    'Punjab',
+    'Rajasthan',
+    'Sikkim',
+    'Tamil Nadu',
+    'Telangana',
+    'Tripura',
+    'Uttar Pradesh',
+    'Uttarakhand',
+    'West Bengal'
+]
 
 def get_store_data(lat, long, keys_to_extract=['datatype', 'id', 'kind', 'type', 'sections', 'latitude', 'longitude', 'isPickupAllowed', 'addressLines', 'city', 'stateCode', 'countryCode', 'zipCode', 'phones', 'stockThreshold', 'highProbabilityStockThreshold', 'country', 'state', 'isDonationAllow', 'isBeautyRecycling', 'isOnlyForEmployees', 'messages', 'radius', 'timezone', 'status', 'isShowable']):
 
