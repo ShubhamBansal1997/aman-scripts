@@ -1,0 +1,197 @@
+id,store_name,address,lat,lang,created_at,updated_at,deleted_at,slug,status,city_id,store_id,city,state
+4,Piccadilly - KFC,"KFC Piccadilly Cinema, Ground Floor, Sector 34, Pin 160034",30.7235135,76.7676531,2019-10-11 07:17:00,2020-07-14 12:24:41,,kfc,1,59,4,Chandigarh,Chandigarh
+5,Chandigarh 8C - KFC,"KFC Sco - 1- 2- 3, Sector 8C, Madhya Marg, Pin 160018",30.7402428,76.792532,2019-10-11 07:17:00,2020-07-11 18:59:18,,kfc,1,59,5,Chandigarh,Chandigarh
+6,Chandigarh Sec 35 - KFC ,"KFC Sco - 425-426, Sector 35C, Pin 160036",30.7224937,76.7614538,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,59,6,Chandigarh,Chandigarh
+7,Elante Mall - KFC  ,"KFC Elante Mall, Unit No. 303, L&T Realty, 178-178A, Industrial & Business Park, Ph-1, Pin 160002",30.7055854,76.8011265,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,59,7,Chandigarh,Chandigarh
+8,Ambience Mall - KFC  ,"KFC Shop No R2, 3Rd Floor, Nelson Mandela Marg, Ambience Mall, Pin 110070",28.541245,77.154935,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,8,Delhi,Delhi
+9,Connaught Place 1 - KFC   ,"KFC A-12 Inner Circle, Connaught Place, Pin 110001",28.633164,77.217971,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,9,Delhi,Delhi
+10,Connaught Place 2 - KFC   ,"KFC Shop No-6&7, KFC Restaurant, Scindia House, Outer Circle, Connaught Place Pin 110001",28.6298,77.2204,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,10,Delhi,Delhi
+11,Dwarka Sector 12 - KFC  ,"KFC Plot No. 230, Sector 9, Dwarka Pin 110077",28.5923791,77.0416679,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,11,Delhi,Delhi
+12,Dwarka Sector 12 - KFC  ,"KFC Plot No. 230, Sector 9, Dwarka Pin 110077",28.5923791,77.0416679,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,12,Delhi,Delhi
+13,Janakpuri 1 - KFC   ,"KFC Shop No 8 To 11, Inside Satyam District Center Janakpuri Pin 110058",28.6295538,77.0801899,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,13,Delhi,Delhi
+14,Janakpuri 2 - KFC   ,"KFC Shop No 8-11, Satyam Complex, Janakpuri District Center, Pin 110058",28.6296451,77.0813776,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,14,Delhi,Delhi
+15,"Unity One Mall, Janakpuri - KFC  ","KFC G01, Ground Floor And 101 First Floor, Unity One Mall, Janak Puri, Pin 110058",28.6286625,77.0764709,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,15,Delhi,Delhi
+16,Kalkaji - KFC  ,"KFC F-4, Kalkaji Main Road, Kalkaji, New Delhi, Pin 110019",28.5374198,77.2597274,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,16,Delhi,Delhi
+17,Kamla Nagar - KFC ,"KFC Plot No - 38 UA, Bunglow Road, Kamla Nagar, Pin 110007",28.6804794,77.2081838,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,17,Delhi,Delhi
+18,Kirti Nagar - KFC ,"KFC Shop No-12, 13, Plot No-67, 2Nd Floor, Food Court, Patel Road, Pin 110015",28.6570135,77.1467284,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,18,Delhi,Delhi
+19,Lajpat Nagar - KFC ,"KFC J 23 A, Central Market, Lajpat Nagar II, Pin 110024",28.569229,77.2417726,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,19,Delhi,Delhi
+20,M2K Rohini - KFC ,"KFC 16 Mangalam Place District Centre, Sector-3, Rohini, Pin 110085",28.7016014,77.1168011,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,20,Delhi,Delhi
+21,"TDI Mall, Nehru Place - KFC ","KFC Food Court, Lower Ground Floor, TDI Mall, Nehru Place, Near Nehru Place Metro Station, Pin 110015",28.551441,77.251741,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,21,Delhi,Delhi
+22,Patel Nagar - KFC ,"KFC Plot No. 2/14, Ground Floor, West Patel Nagar, Pin 110008",28.645157,77.16933,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,22,Delhi,Delhi
+23,Preet Vihar - KFC ,"KFC F-25, Ground Floor, Vikas Marg, Near Preet Vihar Metro Station, Preet Vihar, Pin 110092",28.6415889,77.2953466,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,23,Delhi,Delhi
+24,"Unity One, Rohini - KFC ","KFC Unity No 17 On Ground Floor, Unity One Rohini At Rohini (West), Metro Station Complex, Pin 110085",28.7148646,77.1160921,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,24,Delhi,Delhi
+25,"Community Center, Saket - KFC  ","KFC Community Center, Ashok Vihar, Saket, Pin 110017",28.523142,77.207832,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,25,Delhi,Delhi
+26,"Pacific Mall Food Court, Subhash Nagar - KFC","KFC Shop No - L7, 2nd Floor, Pacific Mall, Tagore Garden, Pin 110015",28.6427067,77.1064,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,26,Delhi,Delhi
+27,"Pacific Mall , Subhash Nagar - KFC","KFC Shop # 01- 03, Lower Ground Floor, Pacific Mall, Pin 110027",28.6424,77.1064,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,27,Delhi,Delhi
+28,Vasant Square Mall - KFC ,"KFC Shop 12 & 13, Vasant Square Mall, Abdul Gaffar Khan Marg, Pocket 7, Sector B, Vasant Kunj, Pin 110070",28.524866,77.156567,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,28,Delhi,Delhi
+29,Saket Select City - KFC,"KFC A-3 District Centre, Saket, New Delhi, Pin 110017",28.528491,77.219105,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,29,Delhi,Delhi
+150,Krishna Nagar - KFC  ,"KFC Upper Ground floor, A-12, Main Road, Swami Dayanand Marg, East Krishna Nagar, Delhi, Pin 110051",28.6612517,77.2845627,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,9,150,Delhi,Delhi
+155,Ashok Nagar - KFC,"KFC Property Devlopment Area,New Ashok Nagar Metro Station,Delhi, Pin 110096",28.5911416,77.3074031,2019-10-11 07:17:00,2020-07-11 18:31:51,,kfc,1,9,155,Delhi,Delhi
+317,Pitampura - KFC,"KFC, PP City Centre, Road No.44, Pitampura, New Delhi -110034",28.6892523,77.1343031,2020-07-02 07:43:00,2020-07-02 07:43:00,,kfc,1,9,317,Delhi,Delhi
+319,Epicuria Eros Mall-KFC,"KFC, District Center 10, Epicuria Eros Mall, Shivaji Palace, Rajouri Garden, New Delhi -110027",28.6512093,77.1211686,2020-07-02 11:34:00,2020-07-02 11:34:00,,kfc,1,9,319,Delhi,Delhi
+321,Dwarka Sec 14 - KFC,"KFC, Plot No 6, Food Court, Vegas Mall, Dwarka Sec 14, New Delhi, Delhi - 110078",28.601195,77.029496,2020-07-02 11:48:00,2020-07-02 11:48:00,,kfc,1,9,321,Delhi,Delhi
+322,Prashant Vihar Sec 14 - KFC,"KFC, Shop No G 12 & 14, Funcity Mall, Prashant Vihar, Sector 14, New Delhi - 110085",28.7123163,77.1359464,2020-07-02 11:49:00,2020-07-02 11:49:00,,kfc,1,9,322,Delhi,Delhi
+323,Mahavir Enclave - KFC,"KFC, Plot No 4 & 5, KH No 82/18, A Block, Main Road, Mahavir Enclave, New Delhi - 110045",28.60007,77.081676,2020-07-02 11:49:00,2020-07-02 11:49:00,,kfc,1,9,323,Delhi,Delhi
+328,Gourmet Hub - KFC,"Plot No.1, BG1 & BG2, Gourmet Hub, Paschim Vihar,New Delhi - 110063",28.6680285,77.1116109,2020-07-02 11:55:00,2020-07-02 11:55:00,,kfc,1,9,328,Delhi,Delhi
+330,Paharganj - KFC,"KFC, Plot No 1 , UG Floor, Block 8 , DB Gupta Road, Paharganj, New Delhi - 110055",28.64546,77.21055,2020-07-02 11:56:00,2020-07-02 11:56:00,,kfc,1,9,330,Delhi,Delhi
+332,Dwarka Sec 21 - KFC,"KFC, Counter No FCC/2F/02, 2nd Flr, Food Court Salt, Pacific Mall, Dwarka 21, New Delhi - 110077",28.5514995,77.0577301,2020-07-02 11:59:00,2020-07-02 11:59:00,,kfc,1,9,332,Delhi,Delhi
+368,Metro Kirti Nagar - KFC,"KFC, Shop No. 13,Kirti Nagar Metro Station, Delhi, Pin code - 110015",28.6557,77.1508,2020-10-26 05:49:58,2020-10-26 05:49:58,,kfc,1,9,368,Delhi,Delhi
+56,Ambala - KFC  ,"KFC, Sena Nagar, Dholkot, Ambala Cantt, Pin 133001",30.36763,76.799884,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,55,56,Ambala,Haryana
+57,Karnal - KFC ,"KFC Shop No - 89 , 15/16/17/18, 130 Milestone , NH-1 , GT Road , Karnal Pin 132001",29.7321853,76.9762605,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,55,57,Ambala,Haryana
+58,"Panchkulla, Sector 9 - KFC","KFC Sco-328, Sector - 9, Panchkula, Pin 134109",30.6960557,76.8496333,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,55,58,Ambala,Haryana
+59,Sonipat Castle GD Plaza - KFC ,"KFC Restaurant AMR Kassel Grand Plaza, Kundli, Pin 131028",28.868291,77.123963,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,55,59,Ambala,Haryana
+58,"Panchkulla, Sector 9 - KFC","KFC Sco-328, Sector - 9, Panchkula, Pin 134109",30.6960557,76.8496333,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,15,58,Panchkula,Haryana
+160,City Mall - KFC   ,"KFC, Shop No.6,7,8,on Ground Floor,City Mall, Situated At Baba Tarana Road, Next To Bus Stand, Sonipat, Haryana Pin 131001",28.9968,77.026,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,21,160,Sonipat,Haryana
+67,Prozone Mall - KFC,"KFC Empire Mall Pvt. Ltd. Golden Dream, D-M80 MIDC, Chikalthana, Auranganbad, Pin 431210",19.8765174,75.3721333,2019-10-11 07:17:00,2020-07-11 18:45:28,,kfc,1,56,67,Aurangabad,Maharashtra
+346,Metro Junction Mall - KFC,"KFC, Metro Junction Mall, Kalyan - Shilphata Rd, Netivali, Kalyan, Maharashtra - 421306",34.526880,-118551630,2020-07-02 12:46:00,2020-07-02 12:46:00,,kfc,1,34,346,Kalyan,Maharashtra
+68,"Foodhub, Expressway - KFC  ","KFC Shop No. 7, Ground Floor, Foodhub, Next To Indian Oil Petrol Pump, Mumbai ",18.7906485,73.2974221,2019-10-11 07:17:00,2019-12-03 14:44:00,,kfc,1,1,68,Mumbai,Maharashtra
+69,Growels Mall - KFC  ,"KFC Restaurants, Unit No. T 05, 3rd Flr, Ph-2, Growel'S 101 Mall, Akurli Road, Kandivali East, Pin 400101",19.2033331,72.8599737,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,69,Mumbai,Maharashtra
+70,Infinity Mall - KFC ,"KFC Infiniti Shop No.TF-328, 3rd Floor, Food Court, Link Road, Malad (W) Pin 400064",19.1849222,72.8340406,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,70,Mumbai,Maharashtra
+71,Viviana Mall - KFC ,"KFC Viviana Mall, Next To Jupiter Hospital, Eastern Express Highway, Thane West, Pin 400601",19.2086746,72.9715242,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,71,Mumbai,Maharashtra
+72,Glomax Mall - KFC  ,"KFC Ground Floor, Glomax Mall, Sector 2, Khargar, Mumbai, Maharashtra Khargar, Pin 410210",19.0304636,73.0657304,2019-10-11 07:17:00,2019-12-03 14:46:00,,kfc,1,1,72,Mumbai,Maharashtra
+73,Linking Road - KFC ,"KFC Restaurant, Unit No 5, 6, 7, 8, 9, Kenilworth Shopping Arcade, Linking Rd, Bandra (W), Pin 400050",19.0655416,72.8341168,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,73,Mumbai,Maharashtra
+74,Inorbit Mall - KFC,"KFC Restaurants, 2nd Floor, Inorbit Mall, Link Road, Malad(W), Pin 400062",19.1733183,72.836248,2019-10-11 07:17:00,2020-07-11 18:37:11,,kfc,1,1,74,Mumbai,Maharashtra
+75,Mira Road - KFC ,"KFC Flat No.001, A-Wing, First Floor, Sai Karishma Tower Chs Ltd., Mira Bhayander Rd. Nr. Shivar Garden, Mira Rd (E), Pin 401107",19.282945,72.8657866,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,75,Mumbai,Maharashtra
+76,Phoenix Market City - KFC,"KFC Restaurant Phoenix Market City, Unit No 20, 2nd Floor, Food Court Level, L.B.S. Marg, Kurla(W), Pin 400070",19.0864096,72.8902619,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,76,Mumbai,Maharashtra
+77,K Star Mall - KFC,"KFC Laalsis Plot No.219, 11th Road, Chembur, Pin 400071",19.0523006,72.9016543,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,77,Mumbai,Maharashtra
+79,Oberoi Mall - KFC ,"KFC Restaurants, Oberoi Mall, Food Court-3rd Floor, International Business Park, Western Express Highway, Goregaon East, Pin 400063",19.1734401,72.8600555,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,79,Mumbai,Maharashtra
+81,"Haiko Palace Mall, Powai - KFC  ","KFC Ground Floor, Haiko Palace Mall, Central Avenue, Hiranandani Gardens, Powai, Pin 400076",19.1185712,72.9113962,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,81,Mumbai,Maharashtra
+82,R City Mall - KFC ,"KFC Rcity FC Foodcourt, 3rd Floor, Rcity Mall, LBS Marg, Ghatkopar West Pin 400086",19.0996921,72.9163115,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,82,Mumbai,Maharashtra
+85,Infiniti Mall - KFC ,"KFC Unit No 207, Infiniti Mall 2nd Floor, Food Court Level, Andheri West Pin 400053",19.171227,72.832828,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,85,Mumbai,Maharashtra
+139,Sagar Pallazio - KFC,"KFC Sagar Pallazio, Near Marol Naka, Andheri East, Pin 400072",19.1036079,72.8865104,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,139,Mumbai,Maharashtra
+144,"The Food Way, Expressway - KFC  ","KFC Unit No. A2-B & B1, The Food Way, Survey No.7 To 17, Tal Khalapur, Dist Road Pin 410203",18.7906104,73.2975362,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,144,Mumbai,Maharashtra
+156,Xperia Mall - KFC  ,"KFC, Kalyan - Shilphata Road, Opp Lodha World School, Palava City, Dombivli East, Dombivli, Maharashtra, Pin 421204",19.1657,73.0753,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,1,156,Mumbai,Maharashtra
+320,Kanakia Wall Street - KFC,"KFC, Chakala, Andheri - Kurla Rd, Hanuman Nagar, Andheri East, Mumbai, Maharashtra - 400093",18.9404369,72.8283147,2020-07-02 11:47:00,2020-07-02 11:47:00,,kfc,1,1,320,Mumbai,Maharashtra
+87,Eternity Mall - KFC ,"KFC Restaurant, Shop No G1, G2, Eternity Mall, Variety Square, Sitabuldi, Pin 440012",21.1431583,79.080197,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,27,87,Nagpur,Maharashtra
+338,Trillium Mall Nagpur - KFC,"KFC, Rambagh Layout, Untkhana, Nagpur, Maharashtra - 440003",21.1329833,79.0964581,2020-07-02 12:24:00,2020-07-02 12:24:00,,kfc,1,27,338,Nagpur,Maharashtra
+345,Metro 99 - KFC,"KFC, SN B1, Metro 99, Commercial Complex, Gangapur Link Road, Thatte Nagar, Nashik, Maharashtra - 422005",20.0072,73.7638,2020-07-02 12:45:00,2020-07-02 12:45:00,,kfc,1,33,345,Nasik,Maharashtra
+6,Chandigarh Sec 35 - KFC ,"KFC Sco - 425-426, Sector 35C, Pin 160036",30.7224937,76.7614538,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,6,Pune,Maharashtra
+88,SGS Mall - KFC ,"KFC, Seasons Mall, Magarpatta City, Hadapsar, Pin 411013",18.5196,73.8774,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,88,Pune,Maharashtra
+89,Deccan Mall - KFC  ,"KFC R-Deccan Mall, Shop No.1, 2, 3, &4, Ground Floor, Opposite To Deccan PMT Bus Near Deccan Gymkhana, J.M Marg Pin 411004",18.5164922,73.8423478,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,89,Pune,Maharashtra
+90,Baner - KFC ,"KFC Ground Floor,TIARA building,village Banner,Haveli,Pune, Pin 411008",18.5596581,73.7799374,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,90,Pune,Maharashtra
+91,City One Mall - KFC ,"KFC ""Swiss Country"" S No 37, Near Pcmc Office, Thergaon, Pin 411033",18.6328382,73.8005489,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,91,Pune,Maharashtra
+92,Amanora Mall - KFC ,"KFC Amanora Town Centre, Mall Management Office, Amanora Magarpatta Road, Pin 411028",18.5186104,73.9360892,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,92,Pune,Maharashtra
+93,Phoenix Market City - KFC,"KFC Phoenix Market City Pune, Survey No. 207, Viman Nagar Road, Pin 411014",18.5627761,73.9163206,2019-10-11 07:17:00,2020-07-11 18:43:00,,kfc,1,2,93,Pune,Maharashtra
+94,MSM Mall - KFC  ,"KFC 25/20, Unit No 2 Ground Floor, MSM Mall, Karve Road, Khilarewadi, Erandwane Pune Pin 411038",18.510553,73.838674,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,94,Pune,Maharashtra
+95,Pacific Mall - KFC ,"KFC Kumar Pacific Mall, FP- CTS 42 & 43, Shankar Seth Road, Gultekdi, Pin 411042",18.5013738,73.8723975,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,95,Pune,Maharashtra
+96,Spot 18 - KFC ,"KFC Office No. 309, 310, 3rd Floor Rainbow Pizza, Pimple Suadagar, Pin 411017",18.593283,73.7859389999999,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,96,Pune,Maharashtra
+97,Westend Mall - KFC ,"KFC Westend Mall, Shop No. SF 2, 5-Gurukul Park Road, Wireless Colony, Aundh, Pin 411007",18.5620523,73.8071677,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,97,Pune,Maharashtra
+98,Pavilion Mall - KFC   ,"KFC Senapati Bapat Rd, Laxmi Society, Model Colony, Shivajinagar, Pin 411016",18.5338,73.8298,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,98,Pune,Maharashtra
+145,Hinjewadi- KFC   ,"KFC S.No. 21/2, Wakad Road, Hinjewadi Pune, Pin 411016",18.590903,73.7478645,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,145,Pune,Maharashtra
+146,Seasons Mall - KFC   ,"KFC Seasons Mall, Magarpatta City, Hadapsar, Pin 411016",18.5195,73.9316,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,146,Pune,Maharashtra
+163,Kharadi - KFC  ,"KFC, Shop No.3&4,Pradeep Plaza West Wing,Ganga Platino,Kharadi, Pin 411014",18.5549228,73.9476938,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,2,163,Pune,Maharashtra
+324,93 Avenue - KFC,"KFC, Unit No 304, 3ed Flr, 93 Avenue Kalubai Chowk, Wanowari, opp. Croma, Hadapsar, Pune, Maharashtra - 411022",18.5057,73.9065,2020-07-02 11:50:00,2020-07-02 11:50:00,,kfc,1,2,324,Pune,Maharashtra
+329,Elpro Estates - KFC,"KFC, UN FC 13, Elpro City Square Ward No 18, Pimpri Chinchwad, Pune, Maharashtra - 411033",18.6300564,73.7869176,2020-07-02 11:55:00,2020-07-02 11:55:00,,kfc,1,2,329,Pune,Maharashtra
+367,NIBM Clover Hill Plaza - KFC,"KFC, Shop 1, 2, 3 & 32, Ground floor, Clover Hill Plaza, Amenity Space, NIBM Road, Pune - 411048",18.4674,73.9017,2020-10-26 05:49:07,2020-10-26 05:49:07,,kfc,1,2,367,Pune,Maharashtra
+78,Korum Mall - KFC ,"KFC Unit No. 4, 3rd Floor, Korum Mall Fc Mangal Pandey Road, Samata Nagar Thane West Pin 400606",19.2035083,72.9646955,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,46,78,Thane,Maharashtra
+86,The Walk - KFC ,"KFC S1, S101 Fortuna, The Walk ",19.25589,72.983651,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,46,86,Thane,Maharashtra
+99,DB City Mall - KFC,"KFC Restaurant, 3rd Floor, DB City Mall, Arera Hills, Opps. Mp Nagar Pin 462011",23.23251788,77.43003141,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,50,99,Bhopal,Madhya Pradesh
+3,Bilaspur - KFC,"KFC Ground Floor, Unit No- 32A Rama Magneto Deendayal Upadhayey Chowk, Shreekant Ver Pin 495004",22.071797,82.149502,2019-10-11 07:17:00,2020-07-14 12:27:19,,kfc,1,58,3,Bilaspur,Madhya Pradesh
+158,DB Mall - KFC ,"KFC , DB Mall, On Khasra 520, 521, 524, 525, Race Course Road, Gwalior, MP, Pin 474001",26.2169475,78.1849576,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,63,158,Gwalior,Madhya Pradesh
+100,Mallhar Mega Mall - KFC ,"KFC Restaurant, Malhar Mega Mall, Plot No. 304, AB Road, Pin 452010",22.7447034,75.8946122,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,49,100,Indore,Madhya Pradesh
+101,RNT Nagar - KFC,"KFC 182 KFC Restaurant, 1& 2 Kbike Compound, Shreenaya Square, RNT Marg, Pin 452001",22.7136631,75.8746225,2019-10-11 07:17:00,2020-07-11 18:45:55,,kfc,0,49,101,Indore,Madhya Pradesh
+102,South Avenue Mall - KFC ,"KFC Restaurant Shop No- GF: 1-5, FF 1-2, South Avenue Mall,  Narmada Road, Jabalpur Pin 482001",23.1241084,79.9276938,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,49,102,Indore,Madhya Pradesh
+361,The One RNT - KFC,"KFC, The One RNT - Indore, Unit No.  GF 1, 2 & 3, Ground Floor, The One, Plot No. 5, RNT Marg- Indore 452001",22.7174,75.8731,2020-10-26 05:37:15,2020-10-26 05:39:43,,kfc,1,49,361,Indore,Madhya Pradesh
+30,Aventura Mall - KFC  ,"KFC Sco - 1, Aventura Mall, 35B/36/13, Pin 144001",31.6421787,74.8711893,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,18,30,Amritsar,Punjab
+31,Trilium Mall - KFC,"KFC Plot No.C4 Trilium Mall, Opp.Basant Avenue, Medical Enclave Circular Road Pin 143001",31.6587371,74.8786785,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,18,31,Amritsar,Punjab
+32,Alpha Mall - KFC,"KFC Alpha One Mall, G.T. Road, Maqbool Pura, Pin 143006",31.619553,74.907419,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,18,32,Amritsar,Punjab
+33,Bhatinda - KFC  ,"KFC, Ground Floor, Bhuchan Kalan, Tehsil Pathana, Bernala Road, Pin 151001",30.2228149,75.0627163,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,19,33,Bhatinda,Punjab
+151,"HT Mall, Hoshiarpur - KFC","KFC Food Court @HT Mall, Situated At Piplawala Crossing Of Phagwara Jalandhar Bye Pass Hoshiarpur Road, Pin 146001",31.5472024,75.8751624,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,65,151,Hoshiarpur,Punjab
+34,Curo Mall - KFC,"KFC Curo High Street, 66 Feet Road, Near Urban Estate - II, Lohar Nangal, Pin 144002",31.2831393,75.5854997999999,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,16,34,Jalandhar,Punjab
+35,Jalandhar Highway - KFC ,"KFC Kasra No-867/868, Village - Pagarpur, GT Road, Pin 144003",31.287562,75.661795,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,16,35,Jalandhar,Punjab
+36,Jalandhar Model Town - KFC,"KFC Shop No-202, Ground Floor, Rampa Centre Point, Model Town Market, Pin 144003",31.3067083,75.5770267,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,16,36,Jalandhar,Punjab
+38,Ansal Plaza - KFC,"KFC Shop No-13, Ground Floor, Ferozpur Road, Opp Circuit House, Pin 141001",30.897707,75.9721224,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,17,38,Ludhiana,Punjab
+39,GK County DT - KFC ,"KFC Restaurant, GK County, Ludhiana Highway, Pin 141015",30.8692182,75.9762585,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,17,39,Ludhiana,Punjab
+40,JMD Mall - KFC,"KFC JMD Govardhan City Centre, Near Jagraon Bridge, G T Road, Pin 141002",30.9110727,75.8514872,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,17,40,Ludhiana,Punjab
+41,Silver Arc Mall - KFC ,"KFC Shop. No.TF 04, 3rd Floor, Silver ARC Mall, Pin 141001",30.9004322,75.8293012,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,17,41,Ludhiana,Punjab
+42,Westend Mall - KFC  ,"KFC Shop No-13-14, Lower Ground Floor, Ferozpur Road, Westend Mall, Pin 141001",30.8856311,75.7881972,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,17,42,Ludhiana,Punjab
+157,Omaxe Plaza - KFC   ,"KFC, Shop No.15,16,29 and 30 in the Building/Mall, Known As Omaxe Plaza Ludhiana, Pin 141001",30.9024204,75.8336896,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,17,157,Ludhiana,Punjab
+325,Doraha - KFC,"Khata No 459/656, West View Plaza, Kh No 1242/9/5, GT Rd, Doraha, Ludhiana, Punjab - 141421",30.8674587,75.9207795,2020-07-02 11:53:00,2020-07-02 11:53:00,,kfc,1,17,325,Ludhiana,Punjab
+369,DUGRI - KFC,"Shop No.18, Ground Floor & First Floor, Dugri Market, Urban Estate Phase-1, Ludhiana141002,  Ludhiana, Punjab-141002",30.8743764657402,75.8431482386342,2021-08-26 06:48:23,2021-08-26 06:48:23,,kfc,1,17,369,Ludhiana,Punjab
+37,Kharar Sunny Bussiness Centre - KFC ,"KFC SCO 100, Sunny Business Center, Kharar Road, Pin 140301",30.74045,76.675786,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,69,37,Mohali,Punjab
+43,VR Punjab - KFC  ,"KFC, SF-09-K16-K18 Second Floor, Food Court , VR Punjab, NH-21, Kharar Road, Pin 160055",30.7363766,76.6783154,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,69,43,Mohali,Punjab
+44,SAS Nagar - KFC,KFC SCF ,30.673698,76.740521,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,69,44,Mohali,Punjab
+47,"Dhillon Silicon Square, Zirakpur - KFC  ","KFC Dhillon Silicon Square, Chandigarh-Ambala National Highway, Village-Singhpura, Zirakpur, Pin 140603",30.62473,76.824769,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,69,47,Mohali,Punjab
+138,Bestech Square Mall - KFC ,"KFC Shop No. 10, 4th Floor, Bestech Square Mall Plot IX, Industry Focal Point Pin 160059",30.6733,76.7398,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,69,138,Mohali,Punjab
+45,Patiala - KFC  ,"KFC Sco - 2 & 3, Opp.- Gopal Sweets, In Front Of Surya Complex, Pin 147001",30.3352061,76.385134,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,32,45,Patiala,Punjab
+344,Prime Hub - KFC,"Niyamatpur / Peharkalan, Rajpura-Chandigarh road, NH-7, Rajpura, Patiala, Punjab - 140401",30.505770,76.631844,2020-07-02 12:44:00,2020-07-02 12:44:00,,kfc,1,32,344,Patiala,Punjab
+46,Rajpura - KFC ,"KFC Miles Mall, Rajpura Haveli, Fatehgarh Sahib, NH-1, Pin 140401",30.549679,76.487403,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,72,46,Rajpura,Punjab
+140,Ropar - KFC ,"KFC Heritage Haveli Near 6th Milestone Kurali Ropar Road, NH21 Rupnagar District, Khabra, Pin 140001",30.898731,76.547558,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,73,140,Rupnagar,Punjab
+133,Jipmer - KFC ,"KFC New Survey No 238/2, P.No. 10 To 21, Pattanur Village, Vannur Sub Road, Thiruchittrambalam Panchayat, Tindivanam, Pin 605001",11.960395,79.7948299,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,40,133,Puducherry,Pondicherry
+134,Providence Mall - KFC    ,"KFC Providence Mall Ambedkar Nagar, Orleanpet, Pin 605005",11.928666,79.820018,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,40,134,Puducherry,Pondicherry
+103,Ampa Mall - KFC ,"KFC Ampa Sky Walk Mall, Shop No:-4, No:1, Nelson Manickam Road, 627, Poonamallee High Road, Amijikarai, Pin 600029",13.07391027,80.221594,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,103,Chennai,Tamil Nadu
+104,Anna Nagar - KFC ,"KFC Plot No: 995 J, New No:172, 2nd Avenue, Anna Nagar, Pin 600040",13.08539677,80.20410731,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,104,Chennai,Tamil Nadu
+105,Ashok Nagar - KFC,"KFC Old No 96 & 97, New No 43 & 44, 11th Avenue, Ashok Nagar, Pin 600083",13.0316,80.2115357,2019-10-11 07:17:00,2020-07-11 18:32:05,,kfc,1,4,105,Chennai,Tamil Nadu
+106,Besant Nagar - KFC ,"KFC H-136/1, H-136/2, 6th Avenue, Elliots Beach, Besant Nagar, Pin 600097",13.0005435,80.270836,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,106,Chennai,Tamil Nadu
+107,Chrompet - KFC  ,"KFC Chrompet, Door No: 5, GST Road, Tambaram, Pin 600047",12.9433075,80.134319,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,107,Chennai,Tamil Nadu
+108,Citi Centre - KFC ,"KFC Chennai Citi Centre, IV Floor, 10 & 11, Dr. Radhakrishnan Salai, Mylapore, Pin 600004",13.04294736,80.27390906,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,108,Chennai,Tamil Nadu
+109,Coromandel Plaza - KFC  ,"KFC Coromondel Plaza, 33, Navalur Vlg, Chengelpet Taluk, Kanchipuram, Pin 603103",12.8503235,80.2261884,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,109,Chennai,Tamil Nadu
+110,ECR - KFC  ,"KFC No:1/74, ECR Road, Kottivakkam, Pin 600041",12.967983,80.257388,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,110,Chennai,Tamil Nadu
+111,Vijaya Forum Mall - KFC,"KFC Restaurant, The Vijaya Forum Mall, Upper Ground Floor, # 180 To 188, NSK Salai, Arcot Road, Pin 600026",13.05119787,80.20930812,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,111,Chennai,Tamil Nadu
+112,Express Avenue - KFC ,"KFC Shop No: Restrt - 2, Express Avenue, 49/50 L, 3rd Floor, Food Court, Whites Road, Royapettah, Pin 600014",13.058464,80.264453,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,112,Chennai,Tamil Nadu
+113,Kanchipuram - KFC  ,"KFC Plot No-27, 28, 29, Vadivel Nagar, Enathur Village, Kancheepuram, Next To Meenakshi Medical College, Karrapettai Post, Kanchipuram, Pin 631552",12.871314,79.7200299,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,113,Chennai,Tamil Nadu
+114,Koyambedu - KFC  ,"KFC No:239, Jawaharlal Nehru Salai, Koyambedu, Pin 600107",13.072194,80.202587,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,114,Chennai,Tamil Nadu
+116,Phoenix Market City - KFC,"KFC F11 Food Court, Phoenix Market City, Velacherry Main Road, Near Gurunayak College, Pin 600042",12.991511,80.216695,2019-10-11 07:17:00,2020-07-11 18:42:49,,kfc,1,4,116,Chennai,Tamil Nadu
+117,Mogappair - KFC ,"KFC No.1/1 C, Kambar Salai, Near Vavin, Opp To Grand Sweets, Pin 600037",13.08478791,80.17001047,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,117,Chennai,Tamil Nadu
+118,OMR Road - KFC ,"KFC No: 180 & 181, Raju Nagar, Opp To AKDR Golf Village, Okkiyam, Thoraipakkam, OMR, Pin 600097",12.935219,80.233835,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,118,Chennai,Tamil Nadu
+119,Perambur - KFC ,"KFC Perambur, No-10- Peravallur- 70 ft Roads, Periyar Nagar, (Near Sheeba Hospital) Pin 600082",13.1170395,80.2279532,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,119,Chennai,Tamil Nadu
+120,Poonamalle - KFC  ,"KFC Plot No: 46, Survey No: 89/2B, 91/1A2 & 92A Madavilagam, Nazareth Pattai, Poonamalle, Next To Motel Highways, Pin 602103",13.0452362,80.07028788,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,120,Chennai,Tamil Nadu
+121,Porur - KFC  ,"KFC No: 1/445, Ground Floor, Mount Poonamallee Road, Opp.Ramachandra Hospital, Porur, Pin 600116",13.0366827,80.1404269,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,121,Chennai,Tamil Nadu
+122,Santhome - KFC  ,"KFC No: 55A, Santhome High Road, Opp Nilgiris, Pin 600024",13.026319,80.275503,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,122,Chennai,Tamil Nadu
+123,Selaiyur - KFC  ,"KFC 208A, Velachery Main Road, Camp Road Junction, Selaiyur, Pin 600073",12.9225844,80.143135,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,123,Chennai,Tamil Nadu
+124,T Nagar - KFC ,"KFC Ground & 1st Floor, No:18, Thyagaraya Road, T.Nagar, Pin 600017",13.0397672,80.24186886,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,124,Chennai,Tamil Nadu
+125,Vellachery - KFC  ,"KFC No: 185, 3rd Cross Street, Tambaram Main Road, Velechery, Pin 600042",12.9724833,80.2192469,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,125,Chennai,Tamil Nadu
+126,Vikravandi - KFC ,"KFC Plot No-57, 58, 59, 60, 61 & 62, Sri Karpaga Vinayagar Nagar, Sathanur Village, Chennai-Trichy Highway GST Road, Near GMR Toll Plaza, Pin 605602",12.023255,79.536375,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,126,Chennai,Tamil Nadu
+142,Nungambakkam - KFC,"KFC Old No.166, New No.24, Kodambakkam, High Road, Nungambakkam Pin 605602",13.0617902,80.2456182,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,142,Chennai,Tamil Nadu
+143,Guduvanchery - KFC,"KFC No.2, 1st Floor, Gst Road, Thailavoram, Guduvanchery, Chengalpet Tk, Kanchipuram Guduvanchery, Pin 605602",12.8330735,80.047734,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,143,Chennai,Tamil Nadu
+153,VRC Mall - KFC   ,"FT13 &FT14, Third Floor,VR Chennai, Jawaharlal Nehru Rd, KFC Anna Nagar West, Anna Nagar, Chennai, Pin 600040",13.0844899,80.194923,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,153,Chennai,Tamil Nadu
+154,Madipakkam - KFC    ,"KFC Madipakkam, Moovarasapattu Village, Alandur Taluk, Pin 600091",12.967465,80.1891443,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,4,154,Chennai,Tamil Nadu
+331,Chennai Central - KFC,"Concourse, Railway station, Chennai Central, Tamil Nadu - 600003",13.0824523,80.2749975,2020-07-02 11:57:00,2020-07-02 11:57:00,,kfc,1,4,331,Chennai,Tamil Nadu
+347,Marina Mall - KFC,"KFC, SN C/01 & C/02, 2nd Floor, Marina Mall, Old Mahabalipuram Road, Tiruporur, Egattur, Tamil Nadu - 603103",12.83582,80.229496,2020-07-02 12:47:00,2020-07-02 12:47:00,,kfc,1,4,347,Chennai,Tamil Nadu
+362,Galaxy Mall - KFC,"""KFC, Galaxy Mall,  001,1st Floor, 180, GNT Road, Red Hills, Tiruvallur-600052""",13.1915,80.186,2020-10-26 05:41:23,2020-10-26 05:41:23,,kfc,1,4,362,Chennai,Tamil Nadu
+127,Avinashi Road - KFC ,"KFC No: 544, Avinashi Road, Opp. Cag Peelamedu, Pin 641004",11.01807737,76.99054062,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,60,127,Coimbatore,Tamil Nadu
+128,Brookefields - KFC  ,"KFC Shop No: T - 10, Brooke Fields Estate Pvt Ltd, 67-71, Krishnaswamy Road, Pin 641001",11.0089152,76.9594451,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,60,128,Coimbatore,Tamil Nadu
+129,Fun Republic - KFC  ,"KFC No: 472 Avinashi Road, Peelamedu, Pin 641004",11.0243833,77.0107771,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,60,129,Coimbatore,Tamil Nadu
+130,Prozone Mall - KFC,"KFC G 24, Prozone Mall, Sivanamdhapuram, Saravanampatty Pin 641035",11.05557502,76.99411439,2019-10-11 07:17:00,2020-07-11 18:45:22,,kfc,1,60,130,Coimbatore,Tamil Nadu
+135,Salem - KFC ,"KFC Restaurant, No: 255 And 256, Omalur Main Road, Salem Pin 636004",11.66642761,78.14476013,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,60,135,Coimbatore,Tamil Nadu
+131,Madurai 1 - KFC  ,"KFC No. 61/4 B, Bye Pass Road, Opp To World Of Titan, Pin 625010",9.9169951,78.0943254,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,67,131,Madurai,Tamil Nadu
+137,Tuticorin - KFC  ,"KFC Restaurant, Velavan Hyper Market, # 53, Gin Factory Road, Thoothukkudi, Pin 628002",8.8036258,78.1438704,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,67,137,Madurai,Tamil Nadu
+147,Madurai 2 - KFC    ,"KFC Geethika Arcade, (Ground And Mezzanine) 64, Hig, 80 Feet Road, Anna Nagar, Pin 625010",9.92373,78.1484965,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,67,147,Madurai,Tamil Nadu
+326,Thanjavur - KFC,"KFC, No 2851/35, GF, Kamal Subramaniam Arcade, Trichy Main Road, Petha Perumal Colony, Thanjavur, Tamil Nadu - 613007",10.774864,79.138529,2020-07-02 11:53:00,2020-07-02 11:53:00,,kfc,1,74,326,Thanjavur,Tamil Nadu
+363,Trichy 2 - KFC,"KFC, 3/1, Anna Malai Tower, New Karur Byepass road, Anna Malai Nagar, Trichy - 620018",10.8274,78.6894,2020-10-26 05:43:45,2020-10-26 05:43:45,,kfc,1,81,363,Tiruchirapalli,Tamil Nadu
+364,Zirakpur 2 - KFC,"KFC,  Zirakpur -2, Times Square , Ground floor Adjoining J&K Bank, VIP Road, Zirakpur, Punjab - PIN Code - 140603",30.638,76.815,2020-10-26 05:44:58,2020-10-26 05:45:59,,kfc,1,81,364,Tiruchirapalli,Tamil Nadu
+152,Tirunelveli - KFC,"KFC Shop No.10/4, South Bypass Road, Vannarpet Tirunelveli, Pin 627003",8.73072999,77.7221906,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,76,152,Tirunelveli,Tamil Nadu
+326,Thanjavur - KFC,"KFC, No 2851/35, GF, Kamal Subramaniam Arcade, Trichy Main Road, Petha Perumal Colony, Thanjavur, Tamil Nadu - 613007",10.774864,79.138529,2020-07-02 11:53:00,2020-07-02 11:53:00,,kfc,1,6,326,Trichy,Tamil Nadu
+327,Trichy Annamalai - KFC,"KFC, New Karur Byepass Road, Annamalai Naga, Trichy, Tamil Nadu - 620018 ",10.8280489,78.6853589,2020-07-02 11:54:00,2020-07-02 11:54:00,,kfc,1,6,327,Trichy,Tamil Nadu
+327,Trichy Annamalai - KFC,"KFC, New Karur Byepass Road, Annamalai Naga, Trichy, Tamil Nadu - 620018 ",10.8280489,78.6853589,2020-07-02 11:54:00,2020-07-02 11:54:00,,kfc,1,77,327,Trichy,Tamil Nadu
+340,Vellore Katpadi Road - KFC,"KFC, No 99/A, Suthanthira Ponvizha Nagar, Vellore Katpadi Road, Vellore, Tamil Nadu - 632006",12.958562,79.137769,2020-07-02 12:30:00,2020-07-02 12:30:00,,kfc,1,29,340,Vellore,Tamil Nadu
+48,Pacific Mall - KFC,"KFC Restaurant, Rajpura Road, Pacific Mall Food Court, Pin 248009",30.3665003,78.0706149,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,35,48,Dehradun,Uttarakhand
+141,Dehradun Chakrata - KFC,"KFC Khasara No.1281, 1291 at Chakrata Road Pin 248123",30.333426,78.023844,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,35,141,Dehradun,Uttarakhand
+161,"Rajpur Road, Dehradun- KFC  ","KFC Building Situated at 65A, Rajpur road,Dehradun,Uttarakhand, Pin 248001",30.3335,78.0241,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,35,161,Dehradun,Uttarakhand
+348,Imperial Height - KFC,"G 01, Imperial Height, Mussorie Road, Kirsali Gaon, Dehradun, Uttarakhand - 248009",30.402474,78.080376,2020-07-02 12:48:00,2020-07-02 12:48:00,,kfc,1,35,348,Dehradun,Uttarakhand
+49,Haldwani - KFC  ,"KFC Haldwani, Khasra No. 790, 793, Village-Damuadhunga Bandobasti, Kathgodam Pin 263126",29.2420825,79.535107,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,22,49,Haldwani,Uttarakhand
+50,Haridwar - KFC  ,"KFC Shop No. Unit No. HF-1 Ground Floor @ National Food Court, Adjoining Crystal Water Park, Pin 249405",29.899636,77.979721,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,64,50,Haridwar,Uttarakhand
+148,Metropolis Mall - KFC    ,"KFC Shop No. UGF 7 & 8, Metropolis Mall, Situated At Rudrapur, Pin 248009",29.0056364,79.4006534,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,23,148,Rudrapur,Uttarakhand
+318,Orion Mall Gorakhpur - KFC,"KFC, Shop No 2, Orion Mall, Mohaddipur, Gorakhpur, Uttar Pradesh - 273008",26.7499172,83.3996539,2020-07-02 08:00:00,2020-07-02 08:00:00,,kfc,1,24,318,Across UP,Uttar Pradesh
+51,P Square Mall - KFC  ,"KFC 229/71, P Square Mall, Civil Line. M.G Road. Pin 211001",25.4494306,81.8395933,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,25,51,Allahabad,Uttar Pradesh
+52,Phoenix Mall - KFC,"KFC 2, 3 Ground Floor, Bareilly-Pilibhit Bypass Road, Pin 243006",28.3949114,79.456982,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,57,52,Bareilly,Uttar Pradesh
+53,Gajraula - KFC  ,"KFC NH 24, Khasra No.30, Salarpur, Gajraula, Dist. - J P Nagar, Amroha Pin 244235",28.8373403,78.2766954,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,57,53,Bareilly,Uttar Pradesh
+55,Shopprix Mall - KFC  ,"KFC-Shopprix Mall, Upper Ground Floor, Delhi Road, Meerut Pin 250001",28.9476532,77.6754448,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,57,55,Bareilly,Uttar Pradesh
+318,Orion Mall Gorakhpur - KFC,"KFC, Shop No 2, Orion Mall, Mohaddipur, Gorakhpur, Uttar Pradesh - 273008",26.7499172,83.3996539,2020-07-02 08:00:00,2020-07-02 08:00:00,,kfc,1,62,318,Gorakhpur,Uttar Pradesh
+54,Z Square Mall - KFC ,"KFC Shop No - 11, 12, 13, 14, 3rd Floor, Z Square Mall, 16/113, M.G.Road, Pin 208001",26.473598,80.352405,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,28,54,Kanpur,Uttar Pradesh
+339,VIP Kanpur Road- KFC,"KFC, Unit No 4/279, Ground Floor, VIP kanpur Road, Kanpur, Uttar Pradesh - 208002",26.4909745,80.315552,2020-07-02 12:30:00,2020-07-02 12:30:00,,kfc,1,28,339,Kanpur,Uttar Pradesh
+349,Khautali - KFC,"139/3,66, The Food Carnival Mall, NH 58, Bhasi, Khatauli, Uttar Pradesh - 251002",29.4552991,77.6968503,2020-07-02 12:50:00,2020-07-02 12:50:00,,kfc,1,36,349,Khatauli,Uttar Pradesh
+349,Khautali - KFC,"139/3,66, The Food Carnival Mall, NH 58, Bhasi, Khatauli, Uttar Pradesh - 251002",29.4552991,77.6968503,2020-07-02 12:50:00,2020-07-02 12:50:00,,kfc,1,66,349,Khautali,Uttar Pradesh
+343,Civil Lines Moradabad - KFC,"KFC, Raj Complex , Gr Flr, Peeli kothi Chauraha, Civil Lines, Moradabad, Uttar Pradesh - 244001",28.8350047,78.7738113,2020-07-02 12:42:00,2020-07-02 12:42:00,,kfc,1,31,343,Moradabad,Uttar Pradesh
+60,Alpha One - KFC,"KFC Alpha One Mall, Tp Scheme No.1, Near Vastrapur Lake, Vastrapur, Pin 380015",23.0400083,72.5313642,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,10,60,Ahmedabad,Gujarat
+61,C G Road - KFC,"KFC 3rd Eye Mall 2, Cg Road Panchvati, Opp. Parimal Garden, Pin 380006",23.0212749,72.55542,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,10,61,Ahmedabad,Gujarat
+62,Pralhad Nagar - KFC ,KFC Restaurants Shop No G ,23.0120338,72.510754,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,10,62,Ahmedabad,Gujarat
+63,Central Mall - KFC ,"KFC Vadodara Central , Ground Floor, Central Mall, Genda Circle, Wadi Wadi Road Opposite Central Square Mall, Pin 390007",22.3172607,73.1697974,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,26,63,Surat,Gujarat
+66,Central Mall - KFC,"KFC Dumas Road, Surat Pin 395007",21.154778,72.764934,2019-10-11 07:17:00,2020-07-11 18:34:02,,kfc,1,26,66,Surat,Gujarat
+159,VR Surat Mall - KFC  ,"KFC, Unit no.310 D in the Mall on the 3rd Floor,VR Surat Mall,  At Dumas Road, Surat, Gujrat, Pin 395007",21.1545483,72.7626573,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,26,159,Surat,Gujarat
+341,LP Savani - KFC,"KFC, UN G1B, Gr Flr, Shivalik Western, LP Savani Road, Adajan, Surat, Gujarat - 395009",21.1934182,72.7862028,2020-07-02 12:31:00,2020-07-02 12:31:00,,kfc,1,26,341,Surat,Gujarat
+63,Central Mall - KFC ,"KFC Vadodara Central , Ground Floor, Central Mall, Genda Circle, Wadi Wadi Road Opposite Central Square Mall, Pin 390007",22.3172607,73.1697974,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,30,63,Vadodara,Gujarat
+64,Eva Mall - KFC,"KFC Patidar Crossing, Near Saraswati Complex, Manjalpur, Pin 390011",22.273147,73.18907,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,30,64,Vadodara,Gujarat
+342,Inorbit Mall Vadodara - KFC,"KFC, Inorbit Mall Vadodara, Wadi Road, BIDC Gorwa Estate, Subhanpura, Vadodara, Gujarat - 390023",17.438299,78.390083,2020-07-02 12:33:00,2020-07-02 12:33:00,,kfc,1,30,342,Vadodara,Gujarat
+1,Treasure Island Mall - KFC,"KFC Restaurant , Gr Flr Surya Treasure Island Mall, Junwani Road, Pin 490230",21.2184108,81.3225657,2019-10-11 07:17:00,2019-10-11 07:17:00,,kfc,1,14,1,Bhillai,Chhattisgarh
+2,Magneto Mall - KFC,"KFC Raipur, GB - 34B, Gr. Floor, Magneto Mall, Khasra No.229/44, Labhandi PC No. 113/44, R I Circle, Pin 429001",21.2395834,81.6841734,2019-10-11 07:17:00,2020-07-14 12:26:36,,kfc,1,71,2,Raipur,Chhattisgarh
