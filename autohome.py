@@ -19,13 +19,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium.webdriver.chrome.service import Service as ChromeService
 
-driver = webdriver.Chrome()
-
-
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-
-driver.get("https://car.autohome.com.cn/price/brand-3-0-3-1.html")
-
 
 
 def brand_page_links():
@@ -140,6 +133,7 @@ def get_car_links():
     print("Filtered Brand Links: ", len(filtered_brand_links))
     brand_tab_links = generate_brand_tab_link(filtered_brand_links)
     car_links = process_brand_tab_links(brand_tab_links)
+    print("Total Car Links: ", len(car_links))
     unique_car_links = list({v['car_link']:v for v in car_links}.values())
     print("Unique Car Links: ", len(unique_car_links))
     return unique_car_links
@@ -187,14 +181,16 @@ def process_car_links():
 
 
 
-
-driver.close()
-
 if __name__ == '__main__':
     oem_names = input("Enter OEM names (comma separated): ").split(",")
     filtered_data = [oem_name.strip() for oem_name in oem_names]
     print("OEM names: ", filtered_data)
     ALLOWED_BRAND_LINKS = filtered_data
+    driver = webdriver.Chrome()
+    #driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    driver.get("https://car.autohome.com.cn/price/brand-3-0-3-1.html")
     FINAL_DATA = process_car_links()
     df = pd.DataFrame(filtered_data)
     df.to_csv("/Users/shubham/Documents/aman-scripts/autohome_filtered.csv", index=False)
+    print("df", df)
+    driver.close()
