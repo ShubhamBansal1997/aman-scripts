@@ -39,9 +39,17 @@ def brand_page_links():
             brand_name = a_link.text
             brand_link = a_link.get_attribute('href')
             brand_links.append({'brand_name': brand_name, 'brand_link': brand_link})
+    print("brand_links: ", len(brand_links))
     return brand_links
 
-ALLOWED_BRAND_LINKS = ["阿斯顿·马丁","阿维塔","埃安","奥迪","宝马","保时捷","北京","北京汽车","北汽新能源","奔驰","本田","比亚迪","标致","别克","长安","长安凯程","长安跨越","长安欧尚","长安启源","长城","大众","东风风度","东风风光","东风风神","东风风行","东风富康","东风纳米","东风小康","东风奕派","东风御风","东南","法拉利","方程豹","飞凡汽车","菲亚特","丰田","福特","广汽传祺","广汽集团","哈弗","昊铂","合创汽车","红旗","鸿蒙智行","iCAR","ARCFOX极狐","Jeep","Polestar极星","吉利几何","吉利汽车","吉利银河","吉祥汽车","极氪","极石","极越","江淮汽车","江淮瑞风","凯迪拉克","凯翼","兰博基尼","岚图汽车","蓝电","乐道","雷克萨斯","理想汽车","力帆汽车","零跑汽车","领克","路虎","MINI","马自达","玛莎拉蒂","迈巴赫","名爵","哪吒汽车","讴歌","欧拉","奇瑞","奇瑞新能源","启辰","起亚","日产","荣威","瑞驰新能源","SERES赛力斯","smart","上汽大通MAXUS","深蓝汽车","思皓","斯巴鲁","斯柯达","坦克","特斯拉","腾势","蔚来","魏牌","沃尔沃","五菱汽车","现代","小米汽车","小鹏","雪佛兰","雪铁龙","仰望","烨","一汽","英菲尼迪"]
+# ALLOWED_BRAND_LINKS = [
+#     "阿斯顿·马丁","阿维塔","埃安","奥迪","宝马","保时捷","北京","北京汽车","北汽新能源","奔驰","本田","比亚迪","标致","别克","长安","长安凯程","长安跨越","长安欧尚","长安启源","长城","大众","东风风度","东风风光","东风风神","东风风行","东风富康","东风纳米","东风小康","东风奕派","东风御风","东南","法拉利","方程豹","飞凡汽车","菲亚特","丰田","福特","广汽传祺","广汽集团","哈弗","昊铂","合创汽车","红旗","鸿蒙智行","iCAR","ARCFOX极狐","Jeep","Polestar极星","吉利几何","吉利汽车","吉利银河","吉祥汽车","极氪","极石","极越","江淮汽车","江淮瑞风","凯迪拉克","凯翼","兰博基尼","岚图汽车","蓝电","乐道","雷克萨斯","理想汽车","力帆汽车","零跑汽车","领克","路虎","MINI","马自达","玛莎拉蒂","迈巴赫","名爵","哪吒汽车","讴歌","欧拉","奇瑞","奇瑞新能源","启辰","起亚","日产","荣威","瑞驰新能源","SERES赛力斯","smart","上汽大通MAXUS","深蓝汽车","思皓","斯巴鲁","斯柯达","坦克","特斯拉","腾势","蔚来","魏牌","沃尔沃","五菱汽车","现代","小米汽车","小鹏","雪佛兰","雪铁龙","仰望","烨","一汽","英菲尼迪"
+# ]
+
+ALLOWED_BRAND_LINKS = [
+    "阿斯顿·马丁",
+    "阿维塔"
+]
 
 def generate_brand_tab_link(brand_page_links):
     in_stock = '在售' # /price/brand-70.html
@@ -69,6 +77,7 @@ def generate_brand_tab_link(brand_page_links):
             'link': discontinued_link
         }]
         brand_tab_links.extend(brand_links)
+    print("Brand Tab Links: ", len(brand_tab_links))
     return brand_tab_links
 
 
@@ -109,24 +118,33 @@ def process_brand_tab_links(brand_tab_links):
         for extra_link in extra_links:
             driver.get(extra_link)
             car_links.extend(get_individual_car_page_links(brand_tab['status'], brand_tab['brand_name'], brand_tab['link']))
+    print("Total Car Links: ", len(car_links))
     return car_links
 
 
+def check_if_a_valid_brand_name(brand_name):
+    for brand in ALLOWED_BRAND_LINKS:
+        if brand in brand_name:
+            return True
+    return False
 
 
 def get_car_links():
     brand_links = brand_page_links()
+    print("Total Brand Links: ", len(brand_links))
     filtered_brand_links = []
     for brand_link in brand_links:
-        if brand_link['brand_name'] not in ALLOWED_BRAND_LINKS:
+        if not check_if_a_valid_brand_name(brand_link['brand_name']):
             continue
         filtered_brand_links.append(brand_link)
+    print("Filtered Brand Links: ", len(filtered_brand_links))
     brand_tab_links = generate_brand_tab_link(filtered_brand_links)
     car_links = process_brand_tab_links(brand_tab_links)
     unique_car_links = list({v['car_link']:v for v in car_links}.values())
+    print("Unique Car Links: ", len(unique_car_links))
     return unique_car_links
 
-def get_car_info(car_link):
+def get_car_info(car_link, brand_name):
     car_info = {}
     car_info['car_detail_name'] = 'N/A'
     car_info['tag_price'] = 'N/A'
@@ -141,7 +159,10 @@ def get_car_info(car_link):
         entries = oem_car_name.split('-')
         if len(entries) != 2:
             raise Exception(f"Invalid Car Name: {oem_car_name}")
-        oem_name, car_name = oem_car_name.split('-')
+        oem_name, car_name = '',''
+        if oem_car_name.startswith(brand_name):
+            car_name = oem_car_name[len(brand_name):].strip()
+        _, car_name = oem_car_name.split('-', 1)
         car_info['car_detail_name'] = car_name.strip()
         car_info['oem_name'] = oem_name.strip()
     price = driver.find_elements(By.CLASS_NAME, 'emphasis')
@@ -158,15 +179,22 @@ def get_car_info(car_link):
 
 def process_car_links():
     car_links = get_car_links()
+    print("Total Car Links: ", len(car_links))
     for car_link in car_links:
-        car_info = get_car_info(car_link['car_link'])
+        car_info = get_car_info(car_link['car_link'], car_link['brand_name'])
         car_link.update(car_info)
     return car_links
 
-FINAL_DATA = process_car_links()
+
 
 
 driver.close()
 
-df = pd.DataFrame(FINAL_DATA)
-df.to_csv("/Users/shubham/Documents/aman-scripts/autohome.csv", index=False)
+if __name__ == '__main__':
+    oem_names = input("Enter OEM names (comma separated): ").split(",")
+    filtered_data = [oem_name.strip() for oem_name in oem_names]
+    print("OEM names: ", filtered_data)
+    ALLOWED_BRAND_LINKS = filtered_data
+    FINAL_DATA = process_car_links()
+    df = pd.DataFrame(filtered_data)
+    df.to_csv("/Users/shubham/Documents/aman-scripts/autohome_filtered.csv", index=False)
