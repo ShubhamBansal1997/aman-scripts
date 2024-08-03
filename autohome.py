@@ -14,11 +14,27 @@ from datetime import datetime
 import os
 import pandas as pd
 
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium.webdriver.chrome.service import Service as ChromeService
 
+
+
+def open_page_with_retries(url, retries=3):
+    attempt = 0
+    while attempt < retries:
+        try:
+            driver.get(url)
+            # Wait for a specific element to be present to ensure the page is loaded
+            print(f"Page loaded successfully on attempt {attempt + 1}")
+            return True
+        except (TimeoutException, WebDriverException) as e:
+            print(f"Attempt {attempt + 1} failed: {str(e)}")
+            attempt += 1
+            time.sleep(10)
+    print(f"Failed to load the page after {retries} attempts")
+    return False
 
 
 def brand_page_links():
@@ -84,7 +100,7 @@ def get_individual_car_page_links(status, brand_name, brand_link):
         car_name = a_element[0].text
         car_link = a_element[0].get_attribute('href')
         car_links.append({'car_name': car_name, 'car_link': car_link, 'brand_name': brand_name, 'status': status, 'brand_link': brand_link})
-    print(f"Brand Name: {brand_name}, Status: {status}, Total Cars: {len(car_links)}")
+    print(f"Brand Name: {brand_name}, Status: {status}, Total Cars: {len(car_links)}, Car Links: {car_links}")
     return car_links
 
 def extra_page_links(base_link):
@@ -134,11 +150,12 @@ def get_car_links():
     brand_tab_links = generate_brand_tab_link(filtered_brand_links)
     car_links = process_brand_tab_links(brand_tab_links)
     print("Total Car Links: ", len(car_links))
+    print("Car Links: ", car_links)
     unique_car_links = list({v['car_link']:v for v in car_links}.values())
     print("Unique Car Links: ", len(unique_car_links))
     return unique_car_links
 
-def get_car_info(car_link, brand_name):
+def get_car_info(car_link, car_name):
     car_info = {}
     car_info['car_detail_name'] = 'N/A'
     car_info['tag_price'] = 'N/A'
@@ -146,19 +163,19 @@ def get_car_info(car_link, brand_name):
     car_info['oem_name'] = 'N/A'
     link = car_link.split('#')[0]
     print("Fetching Link: ", link)
-    driver.get(link)
+    if not open_page_with_retries(link, retries=5):
+        raise Exception("Failed to open the page")
     car_names = driver.find_elements(By.CLASS_NAME, 'athm-sub-nav__car__name')
     if len(car_names) > 0:
         oem_car_name = car_names[0].find_element(By.TAG_NAME, 'a').text
         entries = oem_car_name.split('-')
         if len(entries) != 2:
             raise Exception(f"Invalid Car Name: {oem_car_name}")
-        oem_name, car_name = '',''
-        if oem_car_name.startswith(brand_name):
-            car_name = oem_car_name[len(brand_name):].strip()
-        _, car_name = oem_car_name.split('-', 1)
+        brand_name = ''
+        if oem_car_name.endswith(car_name):
+            brand_name = oem_car_name[:len(oem_car_name)-len(car_name)-1].strip()
         car_info['car_detail_name'] = car_name.strip()
-        car_info['oem_name'] = oem_name.strip()
+        car_info['oem_name'] = brand_name.strip()
     price = driver.find_elements(By.CLASS_NAME, 'emphasis')
     if len(price) > 0:
         car_info['tag_price'] = price[0].text
@@ -175,7 +192,7 @@ def process_car_links():
     car_links = get_car_links()
     print("Total Car Links: ", len(car_links))
     for car_link in car_links:
-        car_info = get_car_info(car_link['car_link'], car_link['brand_name'])
+        car_info = get_car_info(car_link['car_link'], car_link['car_name'])
         car_link.update(car_info)
     return car_links
 
@@ -187,10 +204,14 @@ if __name__ == '__main__':
     print("OEM names: ", filtered_data)
     ALLOWED_BRAND_LINKS = filtered_data
     driver = webdriver.Chrome()
-    #driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    driver.get("https://car.autohome.com.cn/price/brand-3-0-3-1.html")
-    FINAL_DATA = process_car_links()
-    df = pd.DataFrame(filtered_data)
-    df.to_csv("/Users/shubham/Documents/aman-scripts/autohome_filtered.csv", index=False)
-    print("df", df)
-    driver.close()
+    try:
+        #driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+        driver.get("https://car.autohome.com.cn/price/brand-3-0-3-1.html")
+        FINAL_DATA = process_car_links()
+        df = pd.DataFrame(FINAL_DATA)
+        df.to_csv("/Users/shubham/Documents/aman-scripts/autohome_filtered.csv", index=False)
+        print("df", df)
+    except Exception as e:
+        print("Error: ", e)
+    finally:
+        driver.close()
