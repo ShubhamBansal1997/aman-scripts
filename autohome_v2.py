@@ -25,7 +25,7 @@ def prepare_car_list(oem_names):
                 if not check_brand_name(brand_name):
                     continue
                 car_list.append([brand_id, brand_name, sub_brand_id, sub_brand_name, sub_l['I'], sub_l['N']])
-    car_list.insert(0, ['Brand Id', 'Brand', 'Sub-Brand ID', 'Sub-Brand', 'Car Model ID', 'Car Name'])
+    car_list.insert(0, ['Brand Id', 'Brand', 'Sub-Brand ID', 'Sub-Brand', 'Car Model ID', 'Car Name Base Page'])
     print("Car list prepared", len(car_list), car_list[:5])
     return car_list
 
