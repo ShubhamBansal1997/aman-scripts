@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import math
 import traceback
+import pandas as pd
 
 def prepare_car_list(oem_names):
     def check_brand_name(brand_name):
@@ -148,9 +149,6 @@ if __name__ == '__main__':
     print("OEM names: ", oem_names)
     car_list = prepare_car_list(oem_names)
     car_details = process_car_list(car_list)
-    with open('car_details.csv', 'w') as f:
-        for car in car_details:
-            f.write(','.join(car) + '\n')
-    print("Car details written to car_details.csv")
-
+    df = pd.DataFrame(car_details[1:], columns=car_details[0])
+    df.to_csv('car_details.csv', index=False, columns=car_details[0])
 
