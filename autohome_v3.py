@@ -11,7 +11,7 @@ def prepare_car_list(oem_names):
         for oem_name in oem_names:
             if oem_name.lower() in brand_name_key.lower():
                 return True
-        return False
+        return True
 
     car_list = []
     response = requests.get('https://caropen.api.autohome.com.cn/v1/carprice/tree_menu')
@@ -61,42 +61,43 @@ def fetch_car_details(car_id):
     def get_transaction_price():
 
         headers = {
-            'Accept': 'application/json, text/javascript, */*; q=0.01',
+            'Accept': 'application/json',
             'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'Authorization': 'Basic Y2FyLXBjLW5leHRqc3lJNndab292Om5HM2RsNU5uUHZZRA==',
             'Connection': 'keep-alive',
             'Origin': 'https://www.autohome.com.cn',
             'Referer': 'https://www.autohome.com.cn/',
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-site',
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-            'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
             'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
+            'sec-ch-ua-platform': '"Linux"',
         }
-
         params = {
-            '_appId': 'cms',
-            'cityId': '110100',
-            'seriesId': f'{car_id}',
+            '_entryid': '7',
+            'specEntryId': '6',
+            'isNeedUnSale': '1',
+            '_appid': 'pc',
+            'seriesid': f'{car_id}',
+            'cityid': '110100',
         }
         try:
             response = requests.get(
-                'https://autoapi.autohome.com.cn/autohome-www-api/inquirylayer/getSpecGroupedInfoListBySeriesId',
+                'https://autoapi.autohome.com.cn/jxsjs/ics/yhz/dealerlq/v1/statistics/seriesprice/getSeriesMinpriceWithSpecs',
                 params=params,
                 headers=headers,
             )
             maxPrice = -math.inf
             minPrice = +math.inf
             for d in response.json()['result']:
-                for i in d['specList']:
-                    if i['newsId'] == 0:
-                        continue
+                for i in d['specs']:
                     if i['newsPrice'] > maxPrice:
                         maxPrice = i['newsPrice']
                     if i['newsPrice'] < minPrice:
                         minPrice = i['newsPrice']
-                    print(i['newsId'], i['newsPrice'])
+                    print(i['newsPrice'])
             if minPrice == +math.inf:
                 return 'N/A'
             if minPrice == -math.inf:
