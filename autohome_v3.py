@@ -11,7 +11,7 @@ def prepare_car_list(oem_names):
         for oem_name in oem_names:
             if oem_name.lower() in brand_name_key.lower():
                 return True
-        return True
+        return False
 
     car_list = []
     response = requests.get('https://caropen.api.autohome.com.cn/v1/carprice/tree_menu')
